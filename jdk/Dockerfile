@@ -1,4 +1,4 @@
-FROM weian404/ubuntu:16.04
+FROM jeejen/ubuntu:16.04
 
 RUN mkdir /usr/lib/jvm && \
     curl -v -j -k -L -H "Cookie: oraclelicense=accept-securebackup-cookie" \
